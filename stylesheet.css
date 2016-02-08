@@ -1,0 +1,142 @@
+body {
+  background-color: #c2c2d6;
+  margin: 0 15%;
+  font-family: sans-serif;
+}
+
+
+h1 {
+  padding: 0px;
+  text-align: center;
+  font-family: sans-serif;
+  border-bottom: 1px solid #ffffff;
+  margin-top: 30px;
+}
+
+h2 {
+  float: none;
+  padding: 10px 5px 0 0;
+  text-align: left;
+  font-family: sans-serif;
+  margin-left: 0;
+}
+
+h3 {
+  color: #666699;
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  border-top: 1px solid #ffffff;
+  margin-top: 10px;
+
+}
+
+p {
+  text-align: left;
+  vertical-align: center;
+  font-family: sans-serif;
+  margin: 0 0 10px 0;
+}
+
+/*this is the nav bar style*/
+
+#nav {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+#nav ul {
+  list-style: none;
+  width: auto;
+  margin: 0 auto;
+  padding: 0; 
+}
+
+#nav li {
+  float: left; }
+
+#nav li a {
+  display: block;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #666699;
+  } 
+
+#nav li a:hover {
+  color: #000066;
+  background-color: #fff;
+}
+
+/*this is the header style */
+
+.header {
+  display: block;
+  padding: 0;
+  text-align: center;
+  width: auto;
+}
+
+.header img {
+  position: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  height: 10%;
+  width: 20%;
+}
+
+.header h1 {
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  border-bottom: 1px solid #ffffff;
+}
+
+.header p {
+  padding: 0;
+  text-align: center;
+  color: #666699;
+  font-weight: bold;
+}
+
+/* body formatting starts here */
+
+
+#maintext {
+  display: block;
+
+}
+
+#maintext img {
+  display: inline;
+  padding-right: 10px;
+  float: left;
+  height: 10%;
+  width: 20%;
+}
+
+#maintext p {
+  display: inline-block;
+
+}
+
+table {
+  display: block;
+  padding-bottom: 45px;
+  width: auto;
+}
+
+td {
+  position: center;
+  height: 150px;
+  width: 150px;
+}
+
+td img {
+  height: 150px;
+  width: auto;
+  border: 2px #666699;
+}
